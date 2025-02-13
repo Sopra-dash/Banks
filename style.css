@@ -1,0 +1,39 @@
+body{
+    background-image: url('image/logo.jpg');
+    background-size: 100% 150%;
+    color: rgb(0, 4, 255);
+    text-align: right;
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 2rem;
+}
+a{
+color: rgb(220, 0, 0);
+font-size: 2rem;
+text-decoration: none;
+}
+form{
+background-color: #4654e1;
+width: 300px;
+height: 44px;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+input{
+all: unset;
+font: 16px system-ui ;
+color: #fff;
+height: 100%;
+width: 100%;
+padding: 6px 10px;
+}
+img{
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: contain;
+}
